@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and tooling files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local archives and extracted downloads
+archive/
+archive.zip
+*.zip
+
+# Local dataset files; keep the folder placeholder
+data/*.txt
+data/*.csv
+data/*.arff
+
+# Generated models, plots, and metrics; keep folder placeholders
+models/*
+!models/.gitkeep
+plots/*
+!plots/.gitkeep
+model_comparison.csv
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
