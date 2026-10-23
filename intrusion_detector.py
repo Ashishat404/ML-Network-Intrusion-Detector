@@ -1,4 +1,4 @@
-"""
+'''
 ML Network Intrusion Detector
 ==============================
 Trains and evaluates Random Forest, Decision Tree, and Logistic Regression
@@ -17,7 +17,7 @@ Outputs:
     plots/*.png          - EDA, confusion matrices, ROC curve, feature importance
     models/*.pkl          - 7 trained pipelines (joblib)
     Console output         - classification reports, metrics comparison table
-"""
+'''
 
 import os
 import pathlib
