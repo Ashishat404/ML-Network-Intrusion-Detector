@@ -31,3 +31,7 @@ model_comparison.csv
 .idea/
 .DS_Store
 Thumbs.db
+
+# Generated doc files are kept away from the repo, but the source files are tracked
+*.pdf
+*.docx
